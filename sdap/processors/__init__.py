@@ -59,6 +59,7 @@ from sdap.processors.normalizetimebeginningofmonth import NormalizeTimeBeginning
 from sdap.processors.promotevariabletoglobalattribute import PromoteVariableToGlobalAttribute
 from sdap.processors.regrid1x1 import Regrid1x1
 from sdap.processors.subtract180longitude import Subtract180Longitude
+from sdap.processors.forceascendinglatitude import ForceAscendingLatitude
 from sdap.processors.tilereadingprocessor import GridReadingProcessor, SwathReadingProcessor, TimeSeriesReadingProcessor
 from sdap.processors.tilesummarizingprocessor import TileSummarizingProcessor
 from sdap.processors.winddirspeedtouv import WindDirSpeedToUV
@@ -75,6 +76,7 @@ INSTALLED_PROCESSORS = {
     "PromoteVariableToGlobalAttribute": PromoteVariableToGlobalAttribute,
     "Regrid1x1": Regrid1x1,
     "Subtract180Longitude": Subtract180Longitude,
+    "ForceAscendingLatitude": ForceAscendingLatitude,
     "GridReadingProcessor": GridReadingProcessor,
     "SwathReadingProcessor": SwathReadingProcessor,
     "TimeSeriesReadingProcessor": TimeSeriesReadingProcessor,
